@@ -978,5 +978,9 @@
       "memory": "MEM",
       "disk": "Disk",
       "network": "NET"
+    },
+    "tvheadend": {
+      "subscriptions": "Subscriptions",
+      "connections": "Connections"
     }
 }
