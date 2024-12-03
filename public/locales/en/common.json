@@ -1002,5 +1002,14 @@
         "progressing": "Progressing",
         "missing": "Missing",
         "suspended": "Suspended"
+    },
+    "spoolman": {
+        "loading": "Loading"
+    },
+    "gitlab": {
+        "groups": "Groups",
+        "issues": "Issues",
+        "merges": "Merge Requests",
+        "projects": "Projects"
     }
 }
