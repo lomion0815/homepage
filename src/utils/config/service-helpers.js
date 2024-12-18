@@ -402,6 +402,9 @@ export function cleanServiceGroups(groups) {
           mappings,
           display,
 
+          // deluge, qbittorrent
+          enableLeechProgress,
+
           // diskstation
           volume,
 
@@ -568,6 +571,9 @@ export function cleanServiceGroups(groups) {
           if (loadingStrategy) widget.loadingStrategy = loadingStrategy;
           if (allowScrolling) widget.allowScrolling = allowScrolling;
           if (refreshInterval) widget.refreshInterval = refreshInterval;
+        }
+        if (["deluge", "qbittorrent"].includes(type)) {
+          if (enableLeechProgress !== undefined) widget.enableLeechProgress = JSON.parse(enableLeechProgress);
         }
         if (["opnsense", "pfsense"].includes(type)) {
           if (wan) widget.wan = wan;
