@@ -10,6 +10,9 @@ const widget =  {
     },
     connections: {
       endpoint: "status/connections",
+    },
+    inputs: {
+      endpoint: "status/inputs",
     }
   },
 };

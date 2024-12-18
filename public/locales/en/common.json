@@ -991,7 +991,8 @@
     },
     "tvheadend": {
       "subscriptions": "Subscriptions",
-      "connections": "Connections"
+      "connections": "Connections",
+      "inputs": "Active Recordings"
     },
     "argocd": {
         "apps": "Apps",
